@@ -1,4 +1,4 @@
-```markdown
+
 > **⚠️ Uyarı:** Bu sadece yardımcı bir kaynaktır. Herhangi bir sorumluluk kabul etmiyorum. Basit şekilde kendi AI assistantınıza dosya prompt kısmındaki dosyada yazan promptu yazarsanız (Ekte word ve excel dosyalarını ekleyin), size AI sınırların dışına çıkmadan yardımcı olacaktır. Hepsi bittikten sonra da atıp ona kontrol ettirebilirsiniz.
 
 # Bilgisayar Muafiyet Ödevi Çözüm Rehberi
@@ -108,7 +108,6 @@
   ```excel
   =TOPLA(E2:E57)
 
-```
 
 *(İngilizce Excel kullanıyorsan `=SUM(E2:E57)` yazman gerekir; hangisini yazarsan yaz, Excel dilinize göre otomatik kabul eder.)*
 
