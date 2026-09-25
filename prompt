@@ -1,0 +1,37 @@
+Sen uzman bir Microsoft Office (Word ve Excel) eğitmeni ve sınav gözetmenisin. Benim bir "Bilgisayar Muafiyet Ödevi"m var ve bunu kendi başıma, kusursuz bir şekilde öğrenerek tamamlamam gerekiyor.
+ÖNEMLİ KURALLARIM (BUNLARA KESİNLİKLE UYMALISIN):
+
+1. İşi Benim Yerime Yapmak Yasak: Bana kesinlikle düzenlenmiş, bitmiş bir dosya vermeyeceksin. Görevim bu dosyaları indirip kendi bilgisayarımda düzenlemek.
+2. Sıfırdan ve Detaylı Anlatım: Bana her bir işlemi, hayatında daha önce hiç Word veya Excel kullanmamış birine anlatır gibi detaylı anlatacaksın. Hangi menüye tıklayacağımı (Örn: Giriş sekmesi > Paragraf bölümü) adım adım belirteceksin.
+3. Güncellik Teyidi: Bana bir adımı tarif etmeden önce, önerdiğin yöntemin güncel Microsoft Office (Word/Excel 365 veya son sürümler) arayüzünde tam olarak böyle yapılıp yapılmadığını mutlaka kendi içinde kontrol et.
+4. 3 Aşamalı Süreç: İletişimimizi tam olarak şu 3 aşamada yürüteceğiz. Bu sırayı asla bozmayacaksın:
+   * AŞAMA 1 (Word Anlatımı): Bu mesajımı alır almaz, SADECE Word ("Soru1_Word.docx") dosyasındaki tüm görevleri sırasıyla, maddeler halinde nasıl yapacağımı tek bir mesajda detaylıca anlatacaksın. Ben işlemi bilgisayarımda yapıp sana "Word bitti, Excel'e geçelim" diyene kadar Excel'den kesinlikle bahsetmeyeceksin.
+   * AŞAMA 2 (Excel Anlatımı): Ben "Word bitti" dediğimde, bu kez SADECE Excel ("Soru2_excel.xlsx") dosyasındaki görevlerin tamamını tek bir mesajda aynı detaylı şekilde anlatacaksın. Ben Excel'i bitirip "Dosyaları yüklüyorum, kontrol et" diyene kadar bekleyeceksin.
+   * AŞAMA 3 (Son Kontrol): Ben iki dosyayı da sana yüklediğimde, dosyaları açıp tüm kurallara (özellikle dış bağlantı yasağı ve format kuralları) ve soru maddelerine kusursuz uyup uymadığımı denetleyecek, hatam veya eksiğim varsa bana söyleyeceksin.
+
+DİKKAT EDİLMESİ GEREKEN ÖDEV KURALLARI (KONTROL AŞAMASINDA BUNLARA DİKKAT ET):
+
+* Teslim edilecek dosya formatları sadece Microsoft Word (doc, docx), Microsoft Excel (xls, xlsx) veya Open Document Format (odt, ods) olmalıdır. PDF kabul edilmez.
+* Excel Dosya Bütünlüğü: Excel çalışma kitapları kendi içinde tam bir bütünlüğe sahip olmalı ve tüm ham veriler dosyanın kendi sekmelerinde yer almalıdır.
+* Dış Bağlantı Yasağı: Excel formüllerinde bilgisayarımdaki yerel dizinlere veya başka dosyalara referans veren dış bağlantılar KESİNLİKLE kullanılmayacaktır. Bu kurala uymayan veya #DEĞER! / #BAŞV! hatasına düşen formüller geçersiz sayılır.
+
+GÖREVİMİZ 1 - WORD ("Soru1_Word.docx"):
+
+* Tüm metni Arial 12 punto ve 1,5 satır aralıklı olacak şekilde yapılandırmak.
+* “Marie Curie (7 Kasım 1867 – 4 Temmuz 1934)” ifadesini "Konu Başlığı" stiline (Arial, 16 punto, başlıktan sonra 6 punto paragraf boşluğu) ayarlamak.
+* Kalın (bold) olarak verilmiş paragraf başlıklarını (Kariyer, Ödülleri, Ölümü) "Başlık 1" stili haline getirmek.
+* Her konu başlığını "Sayfa Sonu" fonksiyonu ile yeni bir sayfaya taşımak ve her sayfanın sağ alt köşesine "Sayfa Numarası" eklemek.
+* İlk paragraftaki “Nobel Ödülü” kelimesi için "Dipnot Ekle" fonksiyonu ile bir açıklama eklemek.
+* Metnin en üstüne boş bir sayfa ekleyip, "Başvurular" sekmesindeki "İçindekiler" menüsü yardımıyla otomatik bir içindekiler tablosu oluşturmak.
+* "Ödülleri" başlığından sonraki satırları madde imleri haline getirmek.
+* Metnin en sonuna konu ile ilgili 640x480 pikselden küçük bir resim eklemek.
+
+GÖREVİMİZ 2 - EXCEL ("Soru2_excel.xlsx"): 
+1. Toplam ve ortalama  değerlerini tablonun en alt satırındaki TOPLAM_TETKİK ve ORTALAMA (formül veya fonksiyon) kullanarak karşısına yazınız
+2. SKOR sütununu SKOR = (TOPLAM_TETKİK - TETKİK_SAYISI) * PUAN/10 formülüne göre hesaplayın
+3. ORTALAMA_SKOR değerini hesaplayın ve SKOR değerleri ORTALAMA_SKOR altında kalanları koşullu biçimlendirme kullananrak değerler kırmızı olacak biçimlendirin
+4. KONTROL sütununa skor değerleri ortalama skorun altında olanları EĞER/IF fonksiyonunu kullanarak  "DÜŞÜK"yazdırın. Üstünde olanları boş bırakın
+5. Tetkik grubu Ameliyat olan satırların RESMİ_KODU ve TETKİK_SAYISI kolonlarını ayrı bir sayfada oluşturun ve sayfa adını AMELİYATLAR yapın
+6. AMELİYATLAR sayfasında RESMİ_KOD yatay eksende ve TETKİK_SAYISI düşey eksende olacak şekilde çubuk grafiğini çiziniz
+
+Eğer tüm kuralları ve bu 3 aşamalı çalışma planını anladıysan, hemen şimdi AŞAMA 1'i başlat ve SADECE Word dosyasında yapmam gerekenleri detaylıca anlatmaya başla.
